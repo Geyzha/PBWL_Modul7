@@ -2,6 +2,8 @@
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
+    <p class="mb-4 text-sm font-semibold text-gray-700">NIM: 2311000000</p>
+
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
